@@ -1,1 +1,14 @@
+div {
+    border: 1px dotted black;
+    padding: 2px;
+}
 
+.spacy {
+    background: url(Image/vecteezy_dust-sand-cloud-on-a-dusty-road-from-a-car-scattering-trail_22510474.jpg);
+    background-size: cover;
+}
+
+.metal {
+    background: url(Image/concrete_green_paint_texture_pp.jpg);
+    color: orangered;
+}
