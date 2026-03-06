@@ -3,6 +3,8 @@ div {
     padding: 2px;
 }
 
+
+/* Background colors images */
 .spacy {
     background: url(Image/vecteezy_dust-sand-cloud-on-a-dusty-road-from-a-car-scattering-trail_22510474.jpg);
     background-size: cover;
@@ -12,6 +14,26 @@ div {
     background: url(Image/concrete_green_paint_texture_pp.jpg);
     color: orangered;
 }
+
+.bg-terracotta {
+  background: linear-gradient(to bottom right,
+    #e8845a 0%,
+    #c4502a 20%,
+    #a33418 45%,
+    #6b1a00 100%
+  );
+}
+
+.bg-warm-gray {
+  background: linear-gradient(to bottom right,
+    #c4b8b2 0%,
+    #9c8e86 20%,
+    #6b5f59 45%,
+    #3a3330 100%
+  );
+}
+
+
 
 /* More Styling from Claude */
     /* Apply the fonts site-wide */
