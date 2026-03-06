@@ -12,3 +12,73 @@ div {
     background: url(Image/concrete_green_paint_texture_pp.jpg);
     color: orangered;
 }
+
+/* More Styling from Claude */
+    /* Apply the fonts site-wide */
+    body { font-family: 'DM Sans', sans-serif; }
+    h1, h2, h3, h4, h5, h6, .navbar-brand { font-family: 'Syne', sans-serif; }
+
+    /* ── Icosahedron card styles ── */
+    .ico-section {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: clamp(1.5rem, 5vw, 4rem);
+      padding: 1.5rem 2rem 2rem;
+      flex-wrap: wrap;
+    }
+
+    .ico-card {
+      position: relative;
+      width: clamp(260px, 38vw, 340px);
+      aspect-ratio: 1 / 1;
+      cursor: grab;
+      flex-shrink: 0;
+      container-type: inline-size;
+    }
+    .ico-card:active { cursor: grabbing; }
+
+    .ico-card canvas {
+      position: absolute;
+      inset: 0;
+      width: 100% !important;
+      height: 100% !important;
+      display: block;
+      z-index: 1;
+    }
+
+    .ico-overlay {
+      position: absolute;
+      inset: 0;
+      z-index: 2;
+      pointer-events: none;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 22%;
+    }
+
+    .ico-overlay h4 {
+      font-family: 'Syne', sans-serif;
+      font-size: 5cqi;
+      font-weight: 800;
+      color: #ffffff;
+      letter-spacing: 0.03em;
+      line-height: 1.1;
+      margin-bottom: 0.35em;
+      text-shadow:
+        0 1px 10px rgba(0,0,0,0.95),
+        0 0  24px rgba(0,0,0,0.7);
+    }
+
+    .ico-overlay p {
+      font-family: 'DM Sans', sans-serif;
+      font-size: 3cqi;
+      line-height: 1.55;
+      color: rgba(255,255,255,0.88);
+      text-shadow:
+        0 1px 8px rgba(0,0,0,0.98),
+        0 0 16px rgba(0,0,0,0.75);
+    }
