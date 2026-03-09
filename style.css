@@ -33,6 +33,14 @@ div {
   );
 }
 
+.bg-slate-blue {
+  background: linear-gradient(to bottom right,
+    #b8b0e8 0%,
+    #8a7fd4 20%,
+    #6a5acd 45%,
+    #2e2660 100%
+  );
+}
 
 
 /* More Styling from Claude */
