@@ -35,13 +35,21 @@ div {
 
 .bg-slate-blue {
   background: linear-gradient(to bottom right,
-    #b8b0e8 0%,
-    #8a7fd4 20%,
-    #6a5acd 45%,
-    #2e2660 100%
+    #8a7fd4 0%,
+    #6a5acd 20%,
+    #4a3aad 45%,
+    #1a1240 100%
   );
 }
 
+.bg-warm-gold {
+  background: linear-gradient(to bottom right,
+    #f7e48a 0%,
+    #efbf04 20%,
+    #c49a03 45%,
+    #6b5001 100%
+  );
+}
 
 /* More Styling from Claude */
     /* Apply the fonts site-wide */
