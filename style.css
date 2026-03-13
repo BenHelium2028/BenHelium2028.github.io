@@ -3,6 +3,11 @@ div {
     padding: 2px;
 }
 
+.quantumVideo {
+  -webkit-box-shadow: 2px 2px 20px 5px rgba(25,117,50,0.83); 
+  box-shadow: 2px 2px 20px 5px rgba(25,117,50,0.83);
+}
+
 
 /* Background colors images */
 .spacy {
@@ -13,6 +18,11 @@ div {
 .metal {
     background: url(Image/concrete_green_paint_texture_pp.jpg);
     color: orangered;
+}
+
+.Text-shadow-blue {
+  /* Not blue I just didnt want to go around chaning classes */
+  text-shadow: 2px 2px 9px rgba(25,117,50,0.84);
 }
 
 .bg-terracotta {
@@ -48,6 +58,15 @@ div {
     #efbf04 20%,
     #c49a03 45%,
     #6b5001 100%
+  );
+}
+
+.bg-emerald {
+  background: linear-gradient(to bottom right,
+    #5de0a0 0%,
+    #22b573 20%,
+    #127a4a 45%,
+    #071a10 100%
   );
 }
 
